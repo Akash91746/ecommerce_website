@@ -1,1 +1,1 @@
-web: waitress-serve --listen=localhost ecommerce_website.wsgi:application
+web: gunicorn ecommerce_website.wsgi
