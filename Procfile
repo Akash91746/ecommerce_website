@@ -1,1 +1,1 @@
-web: waitress-serve --listen=localhost:8000 ecommerce_website.wsgi:application
+web: waitress-serve --listen=localhost ecommerce_website.wsgi:application
